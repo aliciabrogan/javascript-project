@@ -1,2 +1,2 @@
-# javascript-projects
-interactive JS implementations
+# javascript-web-application-project
+interactive blog application
