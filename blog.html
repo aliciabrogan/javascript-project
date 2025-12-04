@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="Picture3.png" type="image/png">
+    
+</head>
+<body class="page-background">
+    <h1 id="page-heading">Welcome to my blog!</h1> <br>
+    <button id="darkModeToggle">Dark Mode</button>
+    <form id="form-input-blog" class="form-input-blog">
+        <div class="input-row">
+            <div class="input-group">
+                <input id= "name" class="name-box" type="text" placeholder="Name:" required>
+                <div class="error-message" id="name-error"></div>
+            </div>
+            <div class="input-group">
+                <input id= "subject" class="subject-box" type="text" placeholder="Subject:" required>
+                <div class="error-message" id="subject-error"></div>
+            </div>
+        </div>
+        <textarea id= "blog-post" class= "blog-post-box" type="text" placeholder="What's on your mind?" minlength="20" maxlength="400" required></textarea> <br>
+        <button id="post" class ="blog-post-button" type="button">Post</button>
+    </form>
+        <div class="userPosts-container" id="user-box">
+            <ul id="user-posts" class="user-post">
+                <li id="list-posts">
+                    <span class="user-name"></span>
+                    <span class="date"></span> <br>
+                    <span class="user-subject"></span> <br>
+                    <span class="user-post"></span>
+                </li>
+            </ul>
+        </div>
+    
+
+<script src="script-blog.js"></script> 
+</body>
+</html>
