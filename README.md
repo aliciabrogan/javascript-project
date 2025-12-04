@@ -1,13 +1,12 @@
 # javascript-web-application-project
-# 📝 Blog Web Application
+#  Blog Web Application
 
 A multi-page web application that allows users to log in and create blog posts within
 the browser session. Built to strengthen frontend development skills in JavaScript,
 HTML and CSS.
 
----
 
-## ✨ Features
+## Features
 
 - **User Login Page** with form interaction and basic validation
 - **Create Blog Posts** dynamically using DOM manipulation
@@ -19,9 +18,8 @@ HTML and CSS.
 - **Custom loading animation** for a smoother user experience
 - **Clean UI layout** designed with HTML and CSS
 
----
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - JavaScript fundamentals (variables, functions, arrays & conditionals)
 - DOM manipulation & event-driven programming
@@ -29,11 +27,9 @@ HTML and CSS.
 - LocalStorage for UI state management
 - Responsive design principles
 - Modular file structure for scalability
-- Use of version control with Git
 
----
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Planned enhancements include:
 
@@ -46,8 +42,5 @@ Planned enhancements include:
 These improvements will support a transition from a fully client-side prototype to a
 more production-ready web application.
 
----
-
-## 📂 Project Structure
 
 
